@@ -66,10 +66,10 @@ export const FAQSection = (): JSX.Element => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="font-serif font-bold text-3xl lg:text-4xl text-gray-800 mb-4">
+          <h2 className="font-roboto-serif font-bold text-3xl lg:text-4xl text-gray-800 mb-4">
             Frequently Asked Questions
           </h2>
-          <p className="font-medium text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="font-poppins font-medium text-lg text-gray-600 max-w-2xl mx-auto">
             Get answers to the most common questions about our e-commerce training program
           </p>
         </div>
@@ -93,7 +93,7 @@ export const FAQSection = (): JSX.Element => {
               </AccordionTrigger>
               {item.answer && (
                 <AccordionContent className="px-6 pb-4">
-                  <p className="font-medium text-gray-600 text-sm lg:text-base leading-relaxed">
+                  <p className="font-poppins font-medium text-gray-600 text-sm lg:text-base leading-relaxed">
                     {item.answer}
                   </p>
                 </AccordionContent>
@@ -111,7 +111,7 @@ export const FAQSection = (): JSX.Element => {
                 src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg"
           />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1ab2b7]/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <p className="font-medium text-gray-500 text-sm lg:text-base leading-relaxed mt-6 text-center">
+              <p className="font-poppins font-medium text-gray-500 text-sm lg:text-base leading-relaxed mt-6 text-center">
                 Ask anything you want to know about E-commerce and Dropshipping
           </p>
         </div>
@@ -124,6 +124,7 @@ export const FAQSection = (): JSX.Element => {
         </div>
 
             <Button className="mt-8 lg:mt-10 w-full max-w-xs lg:w-[320px] h-12 lg:h-[57px] bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] rounded-full shadow-2xl hover:shadow-3xl font-serif font-bold text-white text-lg lg:text-xl transition-all duration-300 hover:scale-105 group">
+            <Button className="mt-8 lg:mt-10 w-full max-w-xs lg:w-[320px] h-12 lg:h-[57px] bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] rounded-full shadow-2xl hover:shadow-3xl font-pt-serif font-bold text-white text-lg lg:text-xl transition-all duration-300 hover:scale-105 group">
           <span>Send Question</span>
               <div className="w-6 h-6 lg:w-8 lg:h-8 ml-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                 <span className="text-sm">→</span>

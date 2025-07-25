@@ -47,15 +47,12 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: [
-          "ui-sans-serif",
-          "system-ui",
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
+        'roboto-serif': ['Roboto Serif', 'serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'pt-serif': ['PT Serif', 'serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'], // Default content font
+        serif: ['Roboto Serif', 'serif'], // Default title font
       },
       keyframes: {
         "accordion-down": {

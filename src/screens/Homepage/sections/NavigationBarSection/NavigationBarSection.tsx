@@ -31,7 +31,7 @@ export const NavigationBarSection = (): JSX.Element => {
             src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg"
           />
           <div className="ml-2 lg:ml-3 font-serif font-bold text-gray-800 text-sm sm:text-base lg:text-lg">
-            A1 Ecommerce Expert
+            <span className="font-roboto">A1 Ecommerce Expert</span>
           </div>
         </div>
 

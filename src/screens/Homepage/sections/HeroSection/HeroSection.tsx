@@ -18,7 +18,7 @@ export const HeroSection = (): JSX.Element => {
 
         {/* Right Side - Main Content */}
         <div className="w-full h-full flex-col justify-around lg:w-1/2 text-center lg:text-left">
-          <h1 className="font-serif font-bold text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-8">
+          <h1 className="font-roboto-serif font-bold text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-8">
             Learn How to{" "}
             <span className="text-[#4cd0d4]">Build Your Own</span>
             <br />
@@ -29,7 +29,7 @@ export const HeroSection = (): JSX.Element => {
 
           {/* Enroll Today Button */}
           <div className="flex justify-center lg:justify-start">
-            <Button className="bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] text-white font-serif font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-3">
+            <Button className="bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] text-white font-pt-serif font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-3">
               Enroll Today
               <span className="text-xl">→</span>
             </Button>

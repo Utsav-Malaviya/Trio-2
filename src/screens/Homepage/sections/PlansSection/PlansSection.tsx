@@ -37,10 +37,10 @@ export const PlansSection = (): JSX.Element => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="font-serif font-bold text-5xl lg:text-6xl text-gray-800 mb-6 leading-tight">
+          <h1 className="font-roboto-serif font-bold text-5xl lg:text-6xl text-gray-800 mb-6 leading-tight">
             Past <span className="text-green-500">Performance</span>
           </h1>
-          <p className="font-medium text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="font-poppins font-medium text-lg text-gray-600 max-w-2xl mx-auto">
             Real results, real trades - showcasing past performance to build confidence
           </p>
         </div>
@@ -80,10 +80,10 @@ export const PlansSection = (): JSX.Element => {
 
               {/* Card Content */}
               <div className="text-center">
-                <h3 className="font-serif font-bold text-xl lg:text-2xl text-gray-800 mb-4 leading-tight">
+                <h3 className="font-roboto-serif font-bold text-xl lg:text-2xl text-gray-800 mb-4 leading-tight">
                   {card.title}
                 </h3>
-                <p className="font-medium text-gray-700 text-sm lg:text-base leading-relaxed">
+                <p className="font-poppins font-medium text-gray-700 text-sm lg:text-base leading-relaxed">
                   {card.description}
                 </p>
               </div>

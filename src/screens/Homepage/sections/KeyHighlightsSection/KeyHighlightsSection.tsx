@@ -29,7 +29,7 @@ export const KeyHighlightsSection = (): JSX.Element => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="font-serif font-bold text-4xl lg:text-5xl text-gray-800 mb-4">
+          <h2 className="font-roboto-serif font-bold text-4xl lg:text-5xl text-gray-800 mb-4">
             Key <span className="text-[#1ab2b7]">Highlights</span>
           </h2>
         </div>
@@ -93,10 +93,10 @@ export const KeyHighlightsSection = (): JSX.Element => {
                   
                   {/* Content */}
                   <div className="flex-1 pt-2">
-                    <h3 className="font-serif font-bold text-2xl lg:text-3xl text-gray-800 mb-2 group-hover:text-[#1ab2b7] transition-colors duration-300">
+                    <h3 className="font-roboto-serif font-bold text-2xl lg:text-3xl text-gray-800 mb-2 group-hover:text-[#1ab2b7] transition-colors duration-300">
                       {item.title}
                     </h3>
-                    <p className="font-medium text-gray-600 text-base lg:text-lg leading-relaxed">
+                    <p className="font-poppins font-medium text-gray-600 text-base lg:text-lg leading-relaxed">
                       {item.description}
                     </p>
                   </div>

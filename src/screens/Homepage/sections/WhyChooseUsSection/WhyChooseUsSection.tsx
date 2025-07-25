@@ -44,10 +44,10 @@ export const WhyChooseUsSection = (): JSX.Element => {
     <section className="w-full py-16 px-4 lg:px-8 bg-gradient-to-br from-[#f8fdff] to-[#e8f8fa]">
       {/* Section Header */}
       <div className="text-center mb-12">
-        <h2 className="font-serif font-bold text-3xl lg:text-4xl text-gray-800 mb-4">
+        <h2 className="font-roboto-serif font-bold text-3xl lg:text-4xl text-gray-800 mb-4">
           Why Choose Us?
         </h2>
-        <p className="font-medium text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="font-poppins font-medium text-lg text-gray-600 max-w-2xl mx-auto">
           Discover what makes our e-commerce training program stand out from the rest
         </p>
       </div>
@@ -75,12 +75,12 @@ export const WhyChooseUsSection = (): JSX.Element => {
                 <div className="absolute w-full max-w-sm top-32 lg:top-36 left-1/2 -translate-x-1/2 px-4">
                   <div className="relative w-full text-center">
                     <div
-                      className="font-serif font-bold text-gray-800 text-xl lg:text-2xl text-center leading-tight mb-4 group-hover:text-[#1ab2b7] transition-colors duration-300"
+                      className="font-roboto-serif font-bold text-gray-800 text-xl lg:text-2xl text-center leading-tight mb-4 group-hover:text-[#1ab2b7] transition-colors duration-300"
                     >
                       {card.title}
                     </div>
 
-                    <div className="font-medium text-gray-600 text-sm lg:text-base text-center leading-relaxed">
+                    <div className="font-poppins font-medium text-gray-600 text-sm lg:text-base text-center leading-relaxed">
                       {card.description}
                     </div>
                   </div>
