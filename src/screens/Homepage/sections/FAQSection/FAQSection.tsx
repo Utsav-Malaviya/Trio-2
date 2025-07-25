@@ -128,7 +128,8 @@ export const FAQSection = (): JSX.Element => {
               <div className="w-6 h-6 lg:w-8 lg:h-8 ml-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                 <span className="text-sm">→</span>
               </div>
-      </div>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
