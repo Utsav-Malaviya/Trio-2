@@ -17,7 +17,7 @@ export const HeroSection = (): JSX.Element => {
         </div>
 
         {/* Right Side - Main Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full h-full flex-col justify-around lg:w-1/2 text-center lg:text-left">
           <h1 className="font-serif font-bold text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-8">
             Learn How to{" "}
             <span className="text-[#4cd0d4]">Build Your Own</span>
