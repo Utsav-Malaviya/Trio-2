@@ -124,11 +124,10 @@ export const FAQSection = (): JSX.Element => {
         </div>
 
             <Button className="mt-8 lg:mt-10 w-full max-w-xs lg:w-[320px] h-12 lg:h-[57px] bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] rounded-full shadow-2xl hover:shadow-3xl font-pt-serif font-bold text-white text-lg lg:text-xl transition-all duration-300 hover:scale-105 group">
-          <span>Send Question</span>
+              <span>Send Question</span>
               <div className="w-6 h-6 lg:w-8 lg:h-8 ml-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                 <span className="text-sm">→</span>
               </div>
-        </Button>
       </div>
         </div>
       </div>

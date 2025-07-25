@@ -101,9 +101,7 @@ export const FooterSection = (): JSX.Element => {
                         </div>
                       </div>
                       <span className="font-medium text-lg lg:text-xl group-hover:font-semibold">
-                      <span className="font-poppins font-medium text-lg lg:text-xl group-hover:font-semibold">
                         {social.name}
-                      </span>
                       </span>
                     </li>
                   ))}
