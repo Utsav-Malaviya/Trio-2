@@ -11,8 +11,8 @@ export const Homepage = (): JSX.Element => {
     <div className="bg-white flex flex-row justify-center w-full min-h-screen">
       <div className="bg-white overflow-hidden w-full relative">
         <NavigationBarSection />
-        <KeyHighlightsSection />
         <HeroSection />
+        <KeyHighlightsSection />
         <WhyChooseUsSection />
         <FAQSection />
         <FooterSection />
