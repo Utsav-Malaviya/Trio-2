@@ -111,10 +111,10 @@ export const FAQSection = (): JSX.Element => {
                 src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg"
           />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1ab2b7]/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
               <p className="font-poppins font-medium text-gray-500 text-sm lg:text-base leading-relaxed mt-6 text-center">
                 Ask anything you want to know about E-commerce and Dropshipping
           </p>
-        </div>
 
             <div className="w-full max-w-sm lg:max-w-[399px] mt-6">
           <Input
@@ -123,7 +123,6 @@ export const FAQSection = (): JSX.Element => {
           />
         </div>
 
-            <Button className="mt-8 lg:mt-10 w-full max-w-xs lg:w-[320px] h-12 lg:h-[57px] bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] rounded-full shadow-2xl hover:shadow-3xl font-serif font-bold text-white text-lg lg:text-xl transition-all duration-300 hover:scale-105 group">
             <Button className="mt-8 lg:mt-10 w-full max-w-xs lg:w-[320px] h-12 lg:h-[57px] bg-gradient-to-r from-[#4cd0d4] to-[#1ab2b7] hover:from-[#3ab8bc] hover:to-[#158a8e] rounded-full shadow-2xl hover:shadow-3xl font-pt-serif font-bold text-white text-lg lg:text-xl transition-all duration-300 hover:scale-105 group">
           <span>Send Question</span>
               <div className="w-6 h-6 lg:w-8 lg:h-8 ml-4 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
